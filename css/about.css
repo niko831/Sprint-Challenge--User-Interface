@@ -1,0 +1,168 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-family: 'Rubik', sans-serif;
+}
+
+p {
+    line-height: 1.4;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.logo {
+    width: 10%;
+}
+
+nav {
+    width: 40%;
+    padding: 3% 0% 2% 0%;  
+}
+
+ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;    
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    width: 100%;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+#buildings {
+    width: 50%;
+    margin: 0% 25% 1% 25%;
+}
+
+#about {
+    margin: 0% 25% 1% 25%;
+    padding: 0% 1% 1% 1%;
+    border-bottom: 1px dashed black;
+}
+
+#fourbox {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.containerabout-page {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    width: 23%;
+    align-items: center;
+    margin: 1%;
+    border-bottom: 1px dashed black;
+}
+
+.image {
+    width: 100%;
+}
+
+.image img {
+    width: 100%;
+}
+
+button {
+    width: 35%;
+    border: black solid 1.5px;
+    border-radius: 10px;
+	background-color: white;
+	color: black;
+	font-family: 'Titillium Web', sans-serif;
+    padding: 3%;
+    margin-top: 5%;
+}
+
+.text {
+    padding: 2% 0% 5% 0%;
+}
+
+#closing {
+    padding: 2% 0% 2% 0%;
+    margin: 0% 26% 0% 26%;
+}
+
+footer {
+    width: 50%;
+    margin: 0 auto;
+    background: black;
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+    margin-bottom: 2%;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+}
+
+

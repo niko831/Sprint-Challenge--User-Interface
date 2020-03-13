@@ -65,7 +65,7 @@ ul li a {
     width: 100%;
 }
 
-.banner {
+#banner {
     width: 50%;
     margin: 0% 25% 2% 25%;
 }
@@ -73,14 +73,17 @@ ul li a {
 ol, ul {
 	list-style: none;
 }
+
 blockquote, q {
 	quotes: none;
 }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
 	content: '';
 	content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
@@ -135,7 +138,6 @@ p {
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-
 
 .box1 {
     width: 12.5%;
